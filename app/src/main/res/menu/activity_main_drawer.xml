@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_booking_24"
+            android:title="@string/booking" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notification"/>
+
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_credit_card_24"
+            android:title="@string/payment"/>
+
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/ic_coupon"
+            android:title="@string/coupon" />
+
+        <item
+            android:id="@+id/nav_help_center"
+            android:icon="@drawable/ic_help_center"
+            android:title="@string/help_center" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_24"
+            android:title="@string/settings" />
+
+    </group>
+</menu>
